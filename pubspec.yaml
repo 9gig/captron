@@ -22,13 +22,20 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   provider:
-  mvc_pattern:
   flutter_screenutil:
   go_router:
   shared_preferences: ^2.1.1
   google_fonts: ^5.0.0
   flutter_svg:
   percent_indicator: ^4.2.3
+  image_picker: 
+  video_player: 
+  video_editor: 
+  video_trimmer: ^2.1.0
+  get_it: ^7.6.0
+  dio: ^5.3.2
+  flash: ^3.0.5+1
+  http:
 
 dev_dependencies:
   flutter_test:
@@ -45,7 +52,7 @@ dev_dependencies:
   # rules and activating additional ones.
  
 flutter_gen:
-  output: lib/config/asset_config/ # Optional (default: lib/gen/)
+  output: lib/shared/asset_config/ # Optional (default: lib/gen/)
   line_length: 80 # Optional (default: 80)
 
   # Optional
